@@ -36,6 +36,23 @@ p.welcometext{
   text-align: center;
 }
 
+p.headingtext{
+  text-align: center;
+  margin: auto auto 5px auto;
+  text-decoration: underline;
+}
+
+p.descriptiontext{
+  text-align: center;
+  font-size: 15pt;
+  margin: 5px 15% 10px 15%;
+}
+
+p.closingtext{
+  text-align: center;
+  font-weight: bold;
+}
+
 div.footer{
   background-color: #085394;
   color: #ffffff;

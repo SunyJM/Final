@@ -20,10 +20,37 @@
       <p class="welcometext">
       Get in touch with us
       </p>
-      <p>
-        page content
+      <p class="headingtext">
+        Where to visit
+      </p>
+      <p class="descriptiontext">
+        We have several different locations throughout New York State. For a detailed list, please go to the "About us" page. If you would like to make an appointment with us to discuss a potential adoption, please fill out the form below. Thank you!
+      </p>
+      <p class="headingtext">
+        Want to volunteer?
+      </p>
+      <p class="descriptiontext">
+        Thank you for your interest in volunteering! We always are looking for help in a number of different areas. Currently, we require that all persons interested in volunteering first fill out the form below. We will contact you back and arrange a phone interview.
       </p>
 
+      <form>
+        <fieldset>
+        <ul class="formstyler">
+          <li><label for="fname">Your first name:</label> <input type="text" name="fname" id="fname"></li>
+          <li><label for="lname">Your last name:</label> <input type="text" name="lname" id="lname"></li>
+        </ul>
+
+        <label for="subject">Subject:</label> <select name="subject">
+          <option value="I'd like to schedule an in-person appointment">I'd like to schedule an in-person appointment</option>
+          <option value="I'm interested in volunteering">I'm interested in volunteering</option>
+          <option value="I have a question">I have a question</option>
+        </select>
+
+        <br>
+        <label for="message">Your message:</label> <input type="text" rows="4" cols="60" maxlength="600" name="message" id="message">
+
+      </fieldset>
+      </form>
 
       <div class="footer">
         <p class="footertext1">Precious pooches dog shelter</p>
