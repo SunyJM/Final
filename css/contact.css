@@ -51,7 +51,7 @@ p.descriptiontext{
 form{
   background-color: grey;
   text-align: left;
-  margin: 0px 15% 0px 15%;
+  margin: 0px 15% 5px 15%;
   font-size: 12pt;
   padding: 0px 0px 0px 0px;
 }
@@ -66,6 +66,21 @@ ul.formstyler{
   list-style-type: none;
   position: relative;
   right: 40px;
+}
+
+input.lname{
+  position: relative;
+  left: 3px;
+}
+
+select.dropmenu{
+  position:relative;
+  left: 63px;
+}
+
+textarea{
+  margin: 5px auto 5px auto;
+  resize: none;
 }
 
 div.footer{

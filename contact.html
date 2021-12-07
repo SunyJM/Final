@@ -36,18 +36,19 @@
       <form>
         <fieldset>
         <ul class="formstyler">
-          <li><label for="fname">Your first name:</label> <input type="text" name="fname" id="fname"></li>
-          <li><label for="lname">Your last name:</label> <input type="text" name="lname" id="lname"></li>
+          <li><label for="fname">Your first name:</label> <input type="text" name="fname" size="43" id="fname"></li>
+          <li><label for="lname">Your last name:</label> <input class="lname" type="text" name="lname" size="43" id="lname"></li>
         </ul>
 
-        <label for="subject">Subject:</label> <select name="subject">
+        <label for="subject">Subject:</label> <select class="dropmenu" name="subject">
           <option value="I'd like to schedule an in-person appointment">I'd like to schedule an in-person appointment</option>
           <option value="I'm interested in volunteering">I'm interested in volunteering</option>
           <option value="I have a question">I have a question</option>
         </select>
 
         <br>
-        <label for="message">Your message:</label> <input type="text" rows="4" cols="60" maxlength="600" name="message" id="message">
+        <label for="message">Your message:</label><br>
+        <textarea rows="4" cols="50" name="message" id="message"></textarea>
 
       </fieldset>
       </form>
