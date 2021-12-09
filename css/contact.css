@@ -50,8 +50,9 @@ p.descriptiontext{
 
 form{
   background-color: grey;
-  text-align: left;
-  margin: 0px 15% 5px 15%;
+  text-align: center;
+  margin: 0px 15% 20px 15%;
+  width: 70%;
   font-size: 12pt;
   padding: 0px 0px 0px 0px;
 }
@@ -64,23 +65,33 @@ fieldset{
 
 ul.formstyler{
   list-style-type: none;
-  position: relative;
-  right: 40px;
 }
 
 input.lname{
   position: relative;
-  left: 3px;
+  left: 2px;
 }
 
 select.dropmenu{
   position:relative;
-  left: 63px;
+  left: 52px;
+}
+
+label.dropmenulabel{
+  position:relative;
+  right: 11px;
 }
 
 textarea{
   margin: 5px auto 5px auto;
   resize: none;
+  position: relative;
+  left: 20px;
+}
+
+label.messagelabel{
+  position:relative;
+  right: 130px;
 }
 
 div.footer{
