@@ -52,15 +52,18 @@ p.contenttext{
 
 p.hoursheader{
   font-size: 15pt;
-  margin: auto auto auto 15%;
+  margin: auto auto auto 16%;
   display: inline;
 }
 
 table{
   font-size: 15pt;
   margin: auto auto auto 14%;
-  width: 300px;
   display: inline-block;
+}
+
+td{
+  width: 150px;
 }
 
 p.locationheader{
