@@ -36,6 +36,50 @@ p.welcometext{
   text-align: center;
 }
 
+
+
+p.pageheader{
+  text-align: center;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+p.contenttext{
+  text-align: center;
+  font-size: 15pt;
+  margin: auto 15% 40px 15%;
+}
+
+p.hoursheader{
+  font-size: 15pt;
+  margin: auto auto auto 15%;
+  display: inline;
+}
+
+table{
+  font-size: 15pt;
+  margin: auto auto auto 14%;
+  width: 300px;
+  display: inline-block;
+}
+
+p.locationheader{
+  font-size: 15pt;
+  width: 225px;
+  margin: auto 14% auto auto;
+  display: inline-block;
+  float: right;
+}
+
+ul.locations{
+  font-size: 15pt;
+  margin: auto 14% auto auto;
+  width: 300px;
+  float: right;
+  display: inline-block;
+}
+
+
 div.footer{
   background-color: #085394;
   color: #ffffff;
