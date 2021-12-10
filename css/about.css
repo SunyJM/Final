@@ -59,7 +59,7 @@ p.hoursheader{
 table{
   font-size: 15pt;
   margin: auto auto auto 14%;
-  display: inline-block;
+  display: inline;
 }
 
 td{

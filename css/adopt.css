@@ -36,6 +36,31 @@ p.welcometext{
   text-align: center;
 }
 
+p.pageheader{
+  text-align: center;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+
+
+img.gridimage, img.lastgridimage{
+  border: 3px solid black;
+  width: 22%;
+  height: auto;
+  display: inline-block;
+}
+
+img.gridimage{
+  margin: auto 5% 20px 5%;
+}
+
+img.lastgridimage{
+  display: block;
+  margin: auto auto 20px auto;
+}
+
+
 div.footer{
   background-color: #085394;
   color: #ffffff;
